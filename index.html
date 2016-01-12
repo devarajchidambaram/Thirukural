@@ -1,0 +1,103 @@
+
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Free Web tutorials">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+</head>
+
+<body>
+	<h1>Thirukurl</h1>
+    <p>Paul : <span id="paul"></span></p>
+    <p>Iyal : <span id="iyal"></span></p>
+    <p> Adikaram <span id="adikaram"></span></p>
+    <p>No <span id="Number">No results</span><p>
+	<p id='line1'>No results</p>
+	<p id='line2'>No results</p>
+
+    <h4>Porul</h4>
+    <p id="porul"></p>
+
+</body>
+<script  src="js/kural.js"></script>
+<script type="text/javascript">
+if(typeof(Storage) !== "undefined") {
+    //alert('storage support for your system' + Storage);
+    //localStorage.setItem("lastname", [1,2,3]);
+    //alert(localStorage.getItem("lastname"));
+    //alert('today date' + getTodayDate());
+
+    /**
+     அதிகாரம்/Chapter/Adhigaram,
+     இயல்/ChapterGroup/Iyal,
+     பால்/Section/Paal
+    **/
+
+    if(localStorage.getItem('kuralDate')){
+    	var kuralDate = localStorage.getItem('kuralDate');
+    	    kuralDate = new Date(kuralDate);
+    	var todayDate = new Date(getTodayDate());
+    	if(kuralDate <= todayDate){
+    		var kuralCount = parseInt(localStorage.getItem('kuralCount'));
+    		localStorage.setItem('kuralDate' , getTodayDate());
+    		localStorage.setItem('kuralCount' , kuralCount + 1);
+    		console.log(JSON.stringify(kural.kural[kuralCount]));
+    		//var kuralObj = kural.kural[kuralCount];
+
+            document.getElementById("Number").innerHTML = kural.kural[kuralCount].Number;
+    		document.getElementById("line1").innerHTML = kural.kural[kuralCount].Line1;
+    		document.getElementById("line2").innerHTML = kural.kural[kuralCount].Line2;
+
+           // alert('kural object' + JSON.stringify(kuralObj));
+
+        document.getElementById("paul").innerHTML = kural.kural[kuralCount].paul_name;
+        document.getElementById("iyal").innerHTML = kural.kural[kuralCount].iyal_name;
+        document.getElementById("adikaram").innerHTML = kural.kural[kuralCount].adikaram_name;
+        document.getElementById("porul").innerHTML = kural.kural[kuralCount].mk;
+
+
+    	}else{
+    		
+    	}
+
+    }else{
+    	localStorage.setItem('kuralDate' , getTodayDate());
+    	localStorage.setItem('kuralCount' , 1);
+    	//console.log('error date not  found...'+ localStorage.getItem('kuralDate'));
+    	//console.log(JSON.stringify(kural.kural[0]));
+		//document.getElementById("p1").innerHTML = "New text!";
+        document.getElementById("Number").innerHTML = kural.kural[0].Number;
+        document.getElementById("line1").innerHTML = kural.kural[0].Line1;
+        document.getElementById("line2").innerHTML = kural.kural[0].Line2;
+        document.getElementById("paul").innerHTML = kural.kural[0].paul_name;
+        document.getElementById("iyal").innerHTML = kural.kural[0].iyal_name;
+        document.getElementById("adikaram").innerHTML = kural.kural[0].adikaram_name;
+        document.getElementById("porul").innerHTML = kural.kural[0].mk;
+
+    }
+} else {
+    alert('Sorry! No Web Storage support..');
+}
+
+function getTodayDate(){
+var today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth(); //January is 0!
+var yyyy = today.getFullYear();
+
+if(dd<10) {
+    dd='0'+dd
+} 
+
+if(mm<10) {
+    mm='0'+mm
+} 
+
+return [yyyy,mm,dd];
+}
+
+
+
+</script>
+
+</html>

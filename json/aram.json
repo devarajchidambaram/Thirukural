@@ -1,0 +1,359 @@
+ {
+          "name": "அறத்துப்பால்",
+          "transliteration": "Araththuppaal",
+          "translation": "Virtue",
+          "number": 1,
+          "chapterGroup": {
+            "tamil": "இயல்",
+            "detail": [
+              {
+                "name": "பாயிரவியல்",
+                "transliteration": "Paayiraviyal",
+                "translation": "Prologue",
+                "number": 1,
+                "chapters": {
+                  "tamil": "அதிகாரம்",
+                  "detail": [
+                    {
+                      "name": "கடவுள் வாழ்த்து",
+                      "translation": "The Praise of God",
+                      "transliteration": "Katavul Vaazhththu",
+                      "number": 1,
+                      "start": 1,
+                      "end": 10
+                    },
+                    {
+                      "name": "வான்சிறப்பு",
+                      "translation": "The Blessing of Rain",
+                      "transliteration": "Vaansirappu",
+                      "number": 2,
+                      "start": 11,
+                      "end": 20
+                    },
+                    {
+                      "name": "நீத்தார் பெருமை",
+                      "translation": "The Greatness of Ascetics",
+                      "transliteration": "Neeththaar Perumai",
+                      "number": 3,
+                      "start": 21,
+                      "end": 30
+                    },
+                    {
+                      "name": "அறன் வலியுறுத்தல்",
+                      "translation": "Assertion of the Strength of Virtue",
+                      "transliteration": "Aran Valiyuruththal",
+                      "number": 4,
+                      "start": 31,
+                      "end": 40
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "இல்லறவியல்",
+                "transliteration": "Illaraviyal",
+                "translation": "Domestic Virtue",
+                "number": 2,
+                "chapters": {
+                  "tamil": "அதிகாரம்",
+                  "detail": [
+                    {
+                      "name": "இல்வாழ்க்கை",
+                      "translation": "Domestic Life",
+                      "transliteration": "Ilvaazhkkai",
+                      "number": 5,
+                      "start": 41,
+                      "end": 50
+                    },
+                    {
+                      "name": "வாழ்க்கைத் துணைநலம்",
+                      "translation": "The Worth of a Wife",
+                      "transliteration": "Vaazhkkaith Thunainalam",
+                      "number": 6,
+                      "start": 51,
+                      "end": 60
+                    },
+                    {
+                      "name": "மக்கட்பேறு",
+                      "translation": "The Wealth of Children",
+                      "transliteration": "Pudhalvaraip Perudhal",
+                      "number": 7,
+                      "start": 61,
+                      "end": 70
+                    },
+                    {
+                      "name": "அன்புடைமை",
+                      "translation": "The Possession of Love",
+                      "transliteration": "Anputaimai",
+                      "number": 8,
+                      "start": 71,
+                      "end": 80
+                    },
+                    {
+                      "name": "விருந்தோம்பல்",
+                      "translation": "Hospitality",
+                      "transliteration": "Virundhompal",
+                      "number": 9,
+                      "start": 81,
+                      "end": 90
+                    },
+                    {
+                      "name": "இனியவை கூறல்",
+                      "translation": "The Utterance of Pleasant Words",
+                      "transliteration": "Iniyavaikooral",
+                      "number": 10,
+                      "start": 91,
+                      "end": 100
+                    },
+                    {
+                      "name": "செய்ந்நன்றியறிதல்",
+                      "translation": "Gratitude",
+                      "transliteration": "Seynnandri Aridhal",
+                      "number": 11,
+                      "start": 101,
+                      "end": 110
+                    },
+                    {
+                      "name": "நடுவு நிலைமை",
+                      "translation": "Impartiality",
+                      "transliteration": "Natuvu Nilaimai",
+                      "number": 12,
+                      "start": 111,
+                      "end": 120
+                    },
+                    {
+                      "name": "அடக்கம் உடைமை",
+                      "translation": "The Possession of Self-restraint",
+                      "transliteration": "Atakkamutaimai",
+                      "number": 13,
+                      "start": 121,
+                      "end": 130
+                    },
+                    {
+                      "name": "ஒழுக்கம் உடைமை",
+                      "translation": "The Possession of Decorum",
+                      "transliteration": "Ozhukkamutaimai",
+                      "number": 14,
+                      "start": 131,
+                      "end": 140
+                    },
+                    {
+                      "name": "பிறனில் விழையாமை",
+                      "translation": "Not coveting another\"s Wife",
+                      "transliteration": "Piranil Vizhaiyaamai",
+                      "number": 15,
+                      "start": 141,
+                      "end": 150
+                    },
+                    {
+                      "name": "பொறையுடைமை",
+                      "translation": "The Possession of Patience, Forbearance",
+                      "transliteration": "Poraiyutaimai",
+                      "number": 16,
+                      "start": 151,
+                      "end": 160
+                    },
+                    {
+                      "name": "அழுக்காறாமை",
+                      "translation": "Not Envying",
+                      "transliteration": "Azhukkaaraamai",
+                      "number": 17,
+                      "start": 161,
+                      "end": 170
+                    },
+                    {
+                      "name": "வெஃகாமை",
+                      "translation": "Not Coveting",
+                      "transliteration": "Veqkaamai",
+                      "number": 18,
+                      "start": 171,
+                      "end": 180
+                    },
+                    {
+                      "name": "புறங்கூறாமை",
+                      "translation": "Not Backbiting",
+                      "transliteration": "Purangooraamai",
+                      "number": 19,
+                      "start": 181,
+                      "end": 190
+                    },
+                    {
+                      "name": "பயனில சொல்லாமை",
+                      "translation": "Against Vain Speaking",
+                      "transliteration": "Payanila Sollaamai",
+                      "number": 20,
+                      "start": 191,
+                      "end": 200
+                    },
+                    {
+                      "name": "தீவினையச்சம்",
+                      "translation": "Dread of Evil Deeds",
+                      "transliteration": "Theevinaiyachcham",
+                      "number": 21,
+                      "start": 201,
+                      "end": 210
+                    },
+                    {
+                      "name": "ஒப்புரவறிதல்",
+                      "translation": "Duty to Society",
+                      "transliteration": "Oppuravaridhal",
+                      "number": 22,
+                      "start": 211,
+                      "end": 220
+                    },
+                    {
+                      "name": "ஈகை",
+                      "translation": "Giving",
+                      "transliteration": "Eekai",
+                      "number": 23,
+                      "start": 221,
+                      "end": 230
+                    },
+                    {
+                      "name": "புகழ்",
+                      "translation": "Renown",
+                      "transliteration": "Pukazh",
+                      "number": 24,
+                      "start": 231,
+                      "end": 240
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "துறவறவியல்",
+                "transliteration": "Thuravaraviyal",
+                "translation": "Ascetic Virtue",
+                "number": 3,
+                "chapters": {
+                  "tamil": "அதிகாரம்",
+                  "detail": [
+                    {
+                      "name": "அருளுடைமை",
+                      "translation": "Compassion",
+                      "transliteration": "Arulutaimai",
+                      "number": 25,
+                      "start": 241,
+                      "end": 250
+                    },
+                    {
+                      "name": "புலால் மறுத்தல்",
+                      "translation": "Abstinence from Flesh",
+                      "transliteration": "Pulaanmaruththal",
+                      "number": 26,
+                      "start": 251,
+                      "end": 260
+                    },
+                    {
+                      "name": "தவம்",
+                      "translation": "Penance",
+                      "transliteration": "Thavam",
+                      "number": 27,
+                      "start": 261,
+                      "end": 270
+                    },
+                    {
+                      "name": "கூடா ஒழுக்கம்",
+                      "translation": "Imposture",
+                      "transliteration": "Kootaavozhukkam",
+                      "number": 28,
+                      "start": 271,
+                      "end": 280
+                    },
+                    {
+                      "name": "கள்ளாமை",
+                      "translation": "The Absence of Fraud",
+                      "transliteration": "Kallaamai",
+                      "number": 29,
+                      "start": 281,
+                      "end": 290
+                    },Oozhiyal
+                    {
+                      "name": "வாய்மை",
+                      "translation": "Veracity",
+                      "transliteration": "Vaaimai",
+                      "number": 30,
+                      "start": 291,
+                      "end": 300
+                    },
+                    {
+                      "name": "வெகுளாமை",
+                      "translation": "Restraining Anger",
+                      "transliteration": "Vekulaamai",
+                      "number": 31,
+                      "start": 301,
+                      "end":Oozhiyal 310
+                    },
+                    {
+                      "name": "இன்னா செய்யாமை",
+                      "translation": "Not doing Evil",
+                      "transliteration": "Innaaseyyaamai",
+                      "number": 32,
+                      "start": 311,
+                      "end": 320
+                    },
+                    {
+                      "name": "கொல்லாமை",
+                      "translation": "Not killing",
+                      "transliteration": "Kollaamai",
+                      "number": 33,
+                      "start": 321,
+                      "end": 330
+                    },
+                    {
+                      "name": "நிலையாமை",
+                      "translation": "Instability",
+                      "transliteration": "Nilaiyaamai",
+                      "number": 34,
+                      "start": 331,
+                      "end": 340
+                    },
+                    {
+                      "name": "துறவு",
+                      "translation": "Renunciation",
+                      "transliteration": "Thuravu",
+                      "number": 35,
+                      "start": 341,
+                      "end": 350
+                    },
+                    {
+                      "name": "மெய்யுணர்தல்",
+                      "translation": "Truth-Conciousness",
+                      "transliteration": "Meyyunardhal",
+                      "number": 36,
+                      "start": 351,
+                      "end": 360
+                    },
+                    {
+                      "name": "அவா அறுத்தல்",
+                      "translation": "Curbing of Desire",
+                      "transliteration": "Avaavaruththal",
+                      "number": 37,
+                      "start": 361,
+                      "end": 370
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "ஊழியல்",
+                "transliteration": "Oozhiyal",
+                "translation": "Fate",
+                "number": 4,
+                "chapters": {
+                  "tamil": "அதிகாரம்",
+                  "detail": [
+                    {
+                      "name": "ஊழ்",
+                      "translation": "Fate",
+                      "transliteration": "Oozh",
+                      "number": 38,
+                      "start": 371,
+                      "end": 380
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
